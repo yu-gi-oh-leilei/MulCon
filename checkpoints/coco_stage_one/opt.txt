@@ -1,0 +1,59 @@
+----------------- Options ---------------
+               batch_size: 32                            
+                 bce_type: bce                           
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+              choose_size: 0.1                           
+                 coef_att: 1.0                           
+                 coef_nce: 0.5                           
+           continue_train: False                         
+                   cutout: False                         
+                data_type: train                         
+                 dataroot: /mnt/disk1/MLICdataset/COCO2014/	[default: None]
+             dataset_mode: new_coco                      	[default: coco]
+                      ema: False                         
+                    epoch: latest                        
+              epoch_count: 1                             
+                  gpu_ids: 0,1                           	[default: 0]
+ image_normalization_mean: (0.485, 0.456, 0.406)         
+  image_normalization_std: (0.229, 0.224, 0.225)         
+                init_gain: 0.02                          
+                init_type: normal                        
+                  isTrain: True                          	[default: None]
+                  is_miss: False                         
+               last_epoch: -1                            
+                   length: 244                           
+                load_iter: 0                             	[default: 0]
+                load_size: 448                           
+                       lr: 0.0002                        	[default: 0.025]
+           lr_decay_iters: 50                            
+                lr_policy: cosine                        	[default: linear]
+                      lrp: 0.1                           
+               mask_model: None                          
+         max_dataset_size: inf                           
+               milestones: None                          
+                    model: coco_att_stage_one            	[default: nca]
+                  n_holes: 1                             
+                     name: coco_stage_one                	[default: nca]
+                    niter: 0                             
+              niter_decay: 25                            	[default: 200]
+               no_dropout: False                         
+                  no_flip: False                         
+                     norm: instance                      
+              num_classes: 80                            
+              num_threads: 2                             
+               preprocess: none                          
+          pretrain_folder: None                          
+               pretrained: True                          
+               print_freq: 100                           
+                  randaug: True                          
+             save_by_iter: False                         
+          save_epoch_freq: 1                             
+         save_latest_freq: 100                           
+           serial_batches: False                         
+                   suffix:                               
+                train_nca: False                         
+                  verbose: False                         
+                     warm: True                          	[default: False]
+              warm_epochs: 5                             
+----------------- End -------------------
