@@ -10,7 +10,7 @@ The reproduction of the paper "Contrastively Enforcing Distinctiveness for Multi
 **Abstract**
 
 Recently, as an effective way of learning latent representations, contrastive learning has been increasingly popular and successful in various domains. The success of contrastive learning in single-label classifications motivates us to leverage this learning framework to enhance distinctiveness for better performance in multi-label image classification. In this paper, we show that a direct application of contrastive learning can hardly improve in multi-label cases. Accordingly, we propose a novel framework for multi-label classification with contrastive learning in a fully supervised setting, which learns multiple representations of an image under the context of different labels. This introduces a simple yet intuitive adaption of contrastive learning into our model to boost its performance in multi-label image classification. Extensive experiments on four benchmark datasets show that the proposed framework achieves state-of-the-art performance in the comparison with the advanced methods in multi-label classification.
-![enter description here](assets\pipeline.png)
+![enter description here](assets/pipeline.png)
 ## Installation
 
 Please install the following packages:
@@ -50,7 +50,7 @@ python test_new_ap.py --eval --dataroot <Path_to_ML-GCN>/data/coco/ --num_classe
 ## Result
 
 ### Result from paper
-![Results on the COCO dataset.](assets\coco.png)
+![Results on the COCO dataset.](assets/coco.png)
 
 
 ### Reproducing result
