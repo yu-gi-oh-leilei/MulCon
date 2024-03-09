@@ -56,7 +56,7 @@ python test_new_ap.py --eval --dataroot <Path_to_ML-GCN>/data/coco/ --num_classe
 ### Reproducing result
 |DataSet                   | Author | Reproducing |
 |:----:                    | :----: | :---------: |
-|MS-COCO stage one         |  83.80 |    -    |
+|MS-COCO stage one         |  83.80 |    84.4     |
 |MS-COCO stage two         |  84.85 |    -    |
 
 

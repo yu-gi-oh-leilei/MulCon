@@ -34,5 +34,5 @@ python train_augmented_ema.py \
 #     --dataroot /mnt/disk1/MLICdataset/COCO2014/ \
 #     --num_classes 80 --load_size 448 \
 #     --dataset_mode new_coco --model coco_test  \
-#     --name coco_stage_one --data_type val \
+#     --name coco_stage_two --data_type val \
 #     --epoch 15 --batch_size 64 --ema
